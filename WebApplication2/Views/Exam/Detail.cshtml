@@ -1,0 +1,27 @@
+﻿@{ 
+    int[] points = { 1, 2, 3, 4 };
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Detail Page- @TempData["ExamId"]</h1>
+    <h1>Exam Students - @ViewBag.StudentName</h1>
+
+    <ul>
+        @foreach(var item in points)
+            {
+                <li> @item</li>
+            }
+    </ul>
+    <img src="https://sun9-30.userapi.com/sun9-45/impf/c836625/v…&sign=9cdd4f845a202d43f4e0476d43664e91&type=album
+" alt="Alternate Text" />
+</body>
+</html>
+
